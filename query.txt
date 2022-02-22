@@ -1,0 +1,10 @@
+SELECT artist,type_id,COUNT(*) FROM links GROUP BY artist ORDER BY COUNT(*) DESC
+
+SELECT artist,type_name,COUNT(*) FROM links INNER JOIN type ON links.type_id=type.type_id GROUP BY artist ORDER BY COUNT(*) DESC
+
+<br />
+<b>Notice</b>:  Undefined index: link_to_user in <b>D:\xampp\htdocs\link-db\artist_lists.php</b> on line <b>195</b><br />
+@kireha0731
+
+
+

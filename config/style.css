@@ -1,0 +1,464 @@
+.color{
+    color: #01060A; 
+    color: #07293D; 
+    color: #0D4B70; 
+    color: #105D89; 
+    color: #167FBC; 
+    color: #000000; 
+    color: #333333; 
+    color: #666666; 
+    color: #999999; 
+    color: #D9D9D9; 
+}
+
+body{
+    background-color: #000000;
+    font-family: Arial Rounded MT;
+    font-size: 10pt;
+}
+
+::placeholder{
+    color: #D9D9D9;
+}
+
+.caps{
+    text-transform:capitalize;
+}
+
+.add-box{
+    color: #D9D9D9;
+    border: 5px solid #D9D9D9;
+    padding: 10px; 
+}
+
+.add-box h3{
+    margin: 0 0 0 0 ;
+    font-size: 20px;
+}
+
+.add-box hr{
+    border: 2px solid #D9D9D9;
+}
+
+.add-box input[type=text]{
+    margin: 0 0 0 0;
+    color: #D9D9D9;
+    font-family: Arial Rounded MT;
+    border: 2px solid #D9D9D9;
+    background-color: #333333;
+    padding: 5px;
+}
+
+.add-box input[type=number]{
+    text-align: center;
+    width: 50px;
+    margin: 0 0 0 0;
+    color: #D9D9D9;
+    font-family: Arial Rounded MT;
+    border: 2px solid #D9D9D9;
+    background-color: #333333;
+    padding: 5px;
+}
+
+.add-box input[type=date]{
+    text-align: center;
+    margin: 0 0 0 0;
+    color: #D9D9D9;
+    font-family: Arial Rounded MT;
+    border: 2px solid #D9D9D9;
+    background-color: #333333;
+    padding: 3px 5px 3px 5px;
+}
+
+.add-box select{
+    margin: 0 0 0 0;
+    color: #D9D9D9;
+    font-family: Arial Rounded MT;
+    border: 2px solid #D9D9D9;
+    background-color: #333333;
+    padding: 4px 5px;
+}
+
+.add-box input[type=submit]{
+    margin: 0 0 0 0;
+    color: #D9D9D9;
+    font-family: Arial Rounded MT;
+    border: 2px solid #D9D9D9;
+    background-color: #333333;
+    padding: 5px 20px;
+}
+
+.add-box input[type=submit]:hover{
+    margin: 0 0 0 0;
+    color: #D9D9D9;
+    font-family: Arial Rounded MT;
+    border: 2px solid #D9D9D9;
+    background-color: #666666;
+    padding: 5px 20px;
+}
+
+.add-box input[type=text]:read-only{
+    margin: 0 0 0 0;
+    color: #D9D9D9;
+    font-family: Arial Rounded MT;
+    border: 2px solid #D9D9D9;
+    background-color: #666666;
+    padding: 5px;
+}
+
+.add-box input[type=text]:disabled{
+    margin: 0px 0 0 0;
+    color: #D9D9D9;
+    font-family: Arial Rounded MT;
+    border: 2px solid #D9D9D9;
+    background-color: #666666;
+    padding: 5px ;
+    width: 386px;
+}
+
+.add-box input[type=checkbox]{
+    margin: 0 0 0 0;
+    vertical-align: bottom;
+}
+
+.index{
+    color: #D9D9D9;
+    border: 5px solid #D9D9D9;
+    padding: 10px; 
+}
+
+.index .copy{
+    color: #D9D9D9;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.index .copy:hover{
+    color: #666666;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.index h3{
+    margin: 0 0 0 0 ;
+    font-size: 20px;
+}
+
+.index hr{
+    border: 2px solid #D9D9D9;
+}
+
+.list {
+    border: 2px solid #D9D9D9;
+}
+
+.list th{
+    background-color: #333333;
+    border: 2px solid #D9D9D9;
+    padding: 5px;
+}
+
+.list .sort{
+    color: #D9D9D9;
+    display: flow-root;
+    text-align: center;
+    text-decoration: none;
+}
+
+.list .sort:hover{
+    color: #D9D9D9;
+    display: flow-root;
+    text-align: center;
+    text-decoration: none;
+}
+
+.list td, .list tr{
+    border: 2px solid #D9D9D9;
+    padding: 5px;
+}
+
+.list .link{
+    color: #D9D9D9;
+    font-weight: bolder;
+    text-decoration: none;
+    display: block;
+    text-decoration: none;
+}
+
+.list .link:hover{
+    color: #666666;
+    font-weight: bolder;
+    text-decoration: none;
+    display: block;
+    text-decoration: none;
+}
+
+.list .copy{
+    background-color: #000000;
+    font-size: 12pt;
+    font-family: Arial Rounded MT;
+    border: none;
+    color: #D9D9D9;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.list .copy:hover{
+    background-color: #000000;
+    font-size: 12pt;
+    font-family: Arial Rounded MT;
+    border: none;
+    color: #666666;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.index input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.index .button{
+    color: #D9D9D9;
+    font-family: Arial Rounded MT;
+    border: 2px solid #D9D9D9;
+    background-color: #333333;
+    padding: 5px 20px;
+    text-decoration: none;
+}
+
+.index .button:hover{
+    color: #D9D9D9;
+    font-family: Arial Rounded MT;
+    border: 2px solid #D9D9D9;
+    background-color: #666666;
+    padding: 5px 20px;
+    text-decoration: none;
+}
+
+
+.index .page{
+    text-align: center;
+    color: #D9D9D9;
+    font-family: Arial Rounded MT;
+    border: 2px solid #D9D9D9;
+    background-color: #333333;
+    padding: 5px 10px;
+    text-decoration: none;
+    cursor: pointer;
+    width: 12pt;
+    height: 12pt;
+    font-size: 10pt;
+}
+
+.index .page:hover{
+    text-align: center;
+    color: #D9D9D9;
+    font-family: Arial Rounded MT;
+    border: 2px solid #D9D9D9;
+    background-color: #666666;
+    padding: 5px 10px;
+    text-decoration: none;
+    cursor: pointer;
+    width: 12pt;
+    height: 12pt;
+    font-size: 10pt;
+}
+
+
+.index .disabled{
+    text-align: center;
+    color: #D9D9D9;
+    font-family: Arial Rounded MT;
+    border: 2px solid #D9D9D9;
+    background-color: #666666;
+    padding: 5px 10px;
+    text-decoration: none;
+    width: 12pt;
+    height: 12pt;
+    font-size: 10pt;
+}
+
+
+.index .pageInput{
+    text-align: center;
+    color: #D9D9D9;
+    font-family: Arial Rounded MT;
+    border: 3px solid #D9D9D9;
+    background-color: #333333;
+    padding: 5px 5px;
+    font-weight: bolder;
+    width: 12pt;
+    height: 12pt;
+    font-size: 10pt;
+	cursor: pointer;
+}
+
+.index select{
+    margin: 0 0 0 0;
+    color: #D9D9D9;
+    font-family: Arial Rounded MT;
+    border: 2px solid #D9D9D9;
+    background-color: #333333;
+    padding: 4px 5px;
+}
+
+.function{
+    color: #D9D9D9;
+    font-family: Arial Rounded MT;
+    padding: 0 0 0 0;
+}
+
+.function select{
+    text-align: center;
+    color: #D9D9D9;
+    font-family: Arial Rounded MT;
+    border: 3px solid #D9D9D9;
+    background-color: #333333;
+    padding: 4px 1px 4px 10px;
+    font-weight: bolder;
+    
+}
+
+.function input[type=number]{
+    text-align: center;
+    color: #D9D9D9;
+    font-family: Arial Rounded MT;
+    border: 3px solid #D9D9D9;
+    background-color: #333333;
+    padding: 5px;
+    font-weight: bolder;
+    width: 14pt;
+    text-align: center;
+}
+
+.function input[type=text]{
+    text-align: center;
+    color: #D9D9D9;
+    font-family: Arial Rounded MT;
+    border: 3px solid #D9D9D9;
+    background-color: #333333;
+    padding: 5px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.function input[type=submit]{
+    text-align: center;
+    color: #D9D9D9;
+    font-family: Arial Rounded MT;
+    border: 3px solid #D9D9D9;
+    background-color: #333333;
+    padding: 5px 10px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.function input:hover[type=submit]{
+    text-align: center;
+    color: #D9D9D9;
+    font-family: Arial Rounded MT;
+    border: 3px solid #D9D9D9;
+    background-color: #666666;
+    padding: 5px 10px;
+    font-weight: bolder;
+}
+
+
+.function .button{
+    text-align: center;
+    color: #D9D9D9;
+    font-family: Arial Rounded MT;
+    border: 3px solid #D9D9D9;
+    background-color: #333333;
+    padding: 5px 10px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.function .button:hover{
+    text-align: center;
+    color: #D9D9D9;
+    font-family: Arial Rounded MT;
+    border: 3px solid #D9D9D9;
+    background-color: #666666;
+    padding: 5px 10px;
+    font-weight: bolder;
+}
+
+.function input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.dropbtn {
+    border: 3px solid #D9D9D9;
+    font-family: Arial Rounded MT;
+    background-color: #333333;
+    color: #D9D9D9;
+    padding: 4px 5px;
+    font-size: 10pt;
+    border: none;
+    cursor: pointer;
+}
+  
+.dropdown {
+    border: 3px solid #D9D9D9;
+    position: relative;
+    display: inline-block;
+    text-align: left;
+}
+
+.dropdown-content {
+    border: 3px solid #D9D9D9;
+    display: none;
+    position: absolute;
+    background-color: #333333;
+    min-width: 100px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    font-family: Arial Rounded MT;
+    color: #D9D9D9;
+    padding: 4px 5px;
+    font-size: 10pt;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #666666
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #666666;
+}
+
+.secret_button{
+    font-family: Arial Rounded MT;
+    color: #D9D9D9;
+    padding: 4px 5px;
+    font-size: 10pt;
+    text-decoration: none;
+    text-align: right;
+}
+
+.secret_button:hover{
+    font-family: Arial Rounded MT;
+    color: #666666;
+    padding: 4px 5px;
+    font-size: 10pt;
+    text-decoration: none;
+    text-align: right;
+}
+
+.up{
+    vertical-align: top;
+}
+
+.wordwarp{
+    word-wrap: break-word;
+}

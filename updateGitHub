@@ -1,0 +1,5 @@
+use the terminal and put in these three code line in order
+
+git add .
+git commit -m "Adding math function"
+git push -u origin main 
